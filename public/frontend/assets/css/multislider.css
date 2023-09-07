@@ -1,0 +1,24 @@
+#recentNotice {
+  position: relative;
+}
+#recentNotice .MS-content {
+  overflow: hidden;
+  white-space: nowrap;
+}
+#recentNotice .MS-content .item {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+#recentNotice .MS-content .item a{
+  color: #77838f;
+}
+#recentNotice .MS-content .item a:hover{
+  color: #197bdd;
+}
+#recentNotice .MS-content .item span {
+  background-image: linear-gradient(150deg, #4b3695 0%, #19a0ff 100%);
+  padding: 10px;
+  margin: 0px 5px 0px 20px;
+  color: white;
+}

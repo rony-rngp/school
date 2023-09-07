@@ -1,0 +1,116 @@
+Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html, body {
+	font-family: 'Lora', sans-serif;
+	transition: all 0.2s ease-in-out;
+}
+a {
+	text-decoration: none !important;
+}
+p {
+	color: #77838f;
+    line-height: 1.7;
+}
+input:focus, textarea:focus, select:focus, .btn:focus {
+	box-shadow: none !important;
+}
+/*cutom class*/
+.height-100 {
+	min-height: 100vh !important;
+}
+.border-none {
+	border: none !important;
+}
+.read-more {
+	background-color: #438cea42;
+}
+/*end of custom class*/
+.btn-primary:active, .btn-outline-primary:active {
+	background-color: #007bff !important;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+	box-shadow: 10px 10px 11px rgba(55, 125, 255, 0.35) !important;
+}
+/*header menu*/
+header.header {
+	background-image: linear-gradient(150deg, #2e1977 0%, #19a0ff 100%);
+}
+div#headerMenu ul.navbar-nav li.nav-item a.nav-link {
+	color: rgba(255, 255, 255, 0.7) !important;
+	font-size: 18px;
+}
+div#headerMenu ul.navbar-nav li.nav-item a.nav-link:hover {
+	color: white !important;
+}
+/*end of header menu*/
+
+/*carousel*/
+div#headerCarousel div.carousel-inner div.carousel-item {
+	width: 100%;
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div#headerCarousel div.carousel-inner div.carousel-caption {
+	bottom: 20% !important;
+	background-color: #382f2f52;
+    border-radius: 40px;
+    border: none;
+}
+div#headerCarousel div.carousel-inner div.carousel-caption p {
+	color: white !important;
+}
+/*end of carousel*/
+
+/*notice*/
+.notice {
+	background-color: #E2E7EC;
+}
+.notice h2 a {
+	color: black;
+}
+.notice h2 a:hover {
+	color: #007bff;
+}
+/*end of notice*/
+
+/*Gallery image*/
+.gallery-half-dark {
+	height: 400px;
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out;
+}
+.gallery-half-dark::before {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: linear-gradient(0deg, #1e2022 0%, transparent 75%);
+}
+.gallery-half-dark:hover, .gallery-half-dark:focus {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+/*end of Gallery image*/
+
+/*footer*/
+ul.footer-nav li.nav-item a.nav-link {
+	color: #7b7b8ac4 !important;
+}
+ul.footer-nav li.nav-item a.nav-link:hover {
+	color: #377dff !important;
+}
+/*end of footer*/
+
+
+/*pagination*/
+.pagination li a:hover {
+	background-color: #438cea42 !important;
+}
+.pagination li a:focus {
+	box-shadow: none !important;
+}
+/*end of pagination*/
